@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 248 250 252;
+    --foreground: 15 23 42;
+    --card: 255 255 255;
+    --card-foreground: 15 23 42;
+    --popover: 255 255 255;
+    --popover-foreground: 15 23 42;
+    --primary: 84 130 53;
+    --primary-foreground: 255 255 255;
+    --secondary: 241 245 249;
+    --secondary-foreground: 15 23 42;
+    --muted: 241 245 249;
+    --muted-foreground: 100 116 139;
+    --accent: 226 232 240;
+    --accent-foreground: 15 23 42;
+    --border: 226 232 240;
+    --input: 226 232 240;
+    --ring: 84 130 53;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 7 17 31; /* #07111F Deep Midnight */
+    --foreground: 247 250 252; /* #F7FAFC Clean White */
+    --card: 11 23 48; /* #0B1730 Dark Navy */
+    --card-foreground: 247 250 252;
+    --popover: 11 23 48;
+    --popover-foreground: 247 250 252;
+    --primary: 183 243 74; /* #B7F34A Solar Green */
+    --primary-foreground: 7 17 31;
+    --secondary: 15 30 61;
+    --secondary-foreground: 247 250 252;
+    --muted: 15 30 61;
+    --muted-foreground: 147 164 184; /* #93A4B8 Muted Slate */
+    --accent: 41 217 232; /* #29D9E8 Electric Cyan */
+    --accent-foreground: 7 17 31;
+    --border: 30 41 69;
+    --input: 30 41 69;
+    --ring: 183 243 74;
+  }
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 dark:bg-midnight dark:text-cleanwhite min-h-screen antialiased selection:bg-solargreen selection:text-midnight transition-colors duration-200;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  @apply backdrop-blur-xl bg-white/80 dark:bg-darknavy/75 border border-slate-200/80 dark:border-slate-800/80 shadow-sm dark:shadow-card-glass;
+}
+
+.glass-nav {
+  @apply backdrop-blur-xl bg-white/85 dark:bg-midnight/85 border-b border-slate-200/80 dark:border-slate-800/80;
+}
+
+.glass-card-interactive {
+  @apply backdrop-blur-xl bg-white/70 dark:bg-darknavy/70 border border-slate-200 dark:border-slate-800/80 hover:border-solargreen/60 dark:hover:border-solargreen/50 transition-all duration-300;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(147, 164, 184, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(183, 243, 74, 0.5);
+}
+
+/* Print Styles for CPCB EPR Certificates */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
