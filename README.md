@@ -24,7 +24,7 @@
 
 <br/>
 
-[🌐 Explore the Prototype](https://heliosolv.vercel.app) &nbsp;•&nbsp; [🖼️ Pitch Deck Gallery](#-heliosolv--10-slide-pitch-deck-gallery) &nbsp;•&nbsp; [🚀 Getting Started](#-getting-started) &nbsp;•&nbsp; [👥 Team](#-meet-team-fluxara)
+[▶️ Watch The Video](https://youtu.be/38cWK4cCce4) &nbsp;•&nbsp; [🌐 Explore the Prototype](https://heliosolv.vercel.app) &nbsp;•&nbsp; [🖼️ Pitch Deck Gallery](#-heliosolv--10-slide-pitch-deck-gallery) &nbsp;•&nbsp; [🚀 Getting Started](#-getting-started) &nbsp;•&nbsp; [👥 Team](#-meet-team-fluxara)
 
 </div>
 
