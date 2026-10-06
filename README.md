@@ -229,6 +229,17 @@ The interactive web prototype demonstrates the HelioSolv workflow: panel screeni
 
 ---
 
+## ▶️ Watch The Video
+
+The interactive video demonstrates the HelioSolv workflow from slides description to prototype description. It can run through a single click.
+
+<div align="center">
+
+### ▶️ [**Click Here**](https://youtu.be/38cWK4cCce4)
+
+</div>
+
+---
 ## 📈 Business Model & Scalability
 
 HelioSolv proposes a **decentralized, MSME-led** model instead of a single centralized plant.
